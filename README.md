@@ -1,13 +1,14 @@
 # RNN_sequence_image_prediction_and_in-painting <br />
 This is a project which developed two kinds of Recurrent Neural Networks to carry out different tasks. The first kind of RNN is designed to predict the MNIST image with sequence feed-in, the second kind of RNN is designed to in-paint pixels (predict individual pixels). <br />
 Usage: <br />
+
 	1.Single layer Image Prediction with LSTM/GRU (Task1):<br />
 	Run 'ImagePrediction_Implement_Single_Layer_LSTM' to test Image prediction task with single layer RNN. If you want to change the number of units, you should change the variable 'Flag_sigle_layer_LSTM'. <br />
 	For the usage of GRU it is the same with the method of LSTM. <br />
 	
 	2.Stacked RNN  Image Prediction with LSTM/GRU (Task1):<br />
 	Run 'ImagePrediction_Implement_stack_LSTM' to test the 3-layer 32-units-each LSTM. And it is the same to GRU.<br />
-
+	
 	3.Single layer Pixel Prediction with LSTM (Task2):<br />
 	Run 'PixelPrediction_sigle_layer_Implement' to test the Pixel-wise prediction with single layer LSTM RNN. Again if you want to change the units variable 'Pixel_Prediction_Flag'
 	should be changed.<br />
